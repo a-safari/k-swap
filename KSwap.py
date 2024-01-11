@@ -167,19 +167,3 @@ class KSwapNeighbourhood(object):
                                 return updatedStatus #Mostly True
 
         return False
-
-
-
-
-
-
-#mySchedule = scheduleStructure.schedule("instances/E3/M3_N17_U1_100_090.dat")
-#myKSwapNeighbourhood = KSwapNeighbourhood(mySchedule, 4)
-
-#output = myKSwapNeighbourhood.randomizedOperator()
-#print("Done!")
-
-#while True:
-#    output = myKSwapNeighbourhood.randomizedOperator()
-#    if output==False:
-#        break 
