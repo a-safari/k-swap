@@ -126,8 +126,3 @@ class schedule(object):
         self.machineList[minMachineIndex].machineLoad += sumOfProcessingTimesOfKPrimeJobs
         updatedStatus = self.updateStatus()
         return updatedStatus
-            
-
-
-#mySchedule = schedule("instances/E3/M3_N10_U1_100_003.dat")
-#print("Done!")
