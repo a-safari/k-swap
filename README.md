@@ -21,7 +21,7 @@ This repository provides the implementation of the randomized and naive k-swap a
 
 The `Instances/` directory includes **9 classes of instances**, each consisting of **50 files**, for a total of 450 unique problem instances. These classes vary in the number of machines and jobs.
 In each file, the first and second lines specify the number of machines and jobs, respectively. The subsequent lines list the processing times of the jobs.
-Each instance file is named according to the format M<i>_N<j>U<min>_<max>, where
+Each instance file is named according to the format `M<i>_N<j>_U<min>_<max>`, where
 - `i` is the number of machines,
 - `j` is the number of jobs,
 - `U<min>_<max>` indicates that the job processing times are uniformly drawn from the range [`min`, `max`].
