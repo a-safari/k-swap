@@ -1,15 +1,15 @@
 This repository provides the implementation of the randomized and naive k-swap algorithms as presented in the paper:
 
-**"A k-swap Local Search for Makespan Scheduling"**  
+**"A *k*-swap Local Search for Makespan Scheduling"**  
 *Lars Rohwedder, Ashkan Safari, and Tjark Vredeveld*  
 [arXiv:2401.05956](https://arxiv.org/abs/2401.05956)
 
 
 ## Repository Structure
 
-- **`main.py`**: Coordinates the execution of experiments, including loading instances, running the randomized and naive k-swap algorithms, and recording the results.
+- **`main.py`**: Coordinates the execution of experiments, including loading instances, running the randomized and naive *k*-swap algorithms, and recording the results.
 
-- **`KSwap.py`**: Contains the core implementations of the k-swap local search algorithms, including both the naive and randomized versions. It defines the logic for identifying and performing improving k-swap moves.
+- **`KSwap.py`**: Contains the core implementations of the *k*-swap local search algorithms, including both the naive and randomized versions. It defines the logic for identifying and performing improving *k*-swap moves.
 
 - **`scheduleStructure.py`**: Defines the data structures and functions related to job scheduling, such as representing schedules, calculating makespan, and applying job swaps.
 
@@ -28,7 +28,7 @@ Each instance file is named according to the format `M<i>_N<j>_U<min>_<max>`, wh
 
 ## Computational Results
 
-The `Computational Results/` directory contains the output of running the randomized and naive k-swap algorithms on all 450 instances.
+The `Computational Results/` directory contains the output of running the randomized and naive *k*-swap algorithms on all 450 instances.
 
 It consists of two subdirectories:
 
