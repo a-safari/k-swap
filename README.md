@@ -41,18 +41,18 @@ This subdirectory contains summarized results in `.xlsx` format for convenient i
 For each class of instances `M<i>_N<j>_U1_1000000000`, we include the following `.dat` files. In each filename, `N` and `R` indicate results from the `Naive` and `Randomized` algorithms, respectively.
 
 - `M<i>_N<j>_U1_1000000000_<N/R>_TotalTime.dat`:  
-  For each value of *k*, this file reports the average total running time (in seconds) required to converge to a *k*-swap optimal solution, averaged over all 50 instances in the class. Each row contains two values: the value of *k* and the corresponding average time.
+  For each value of *k*, this file reports the average total running time (in seconds) required to converge to a *k*-swap optimal solution, averaged over all **50 instances** in the class. Each row contains two values: the value of *k* and the corresponding average time.
 
 - `M<i>_N<j>_U1_1000000000_<N/R>_Time.dat`:  
-  For each value of *k*, this file reports the average time (in seconds) taken to find an improving *k*-swap neighbor. Each row contains: *k* and the average time, aggregated over all 50 instances.
+  For each value of *k*, this file reports the average time (in seconds) taken to find an improving *k*-swap neighbor, averaged over all **50 instances**. Each row contains: *k* and the average time.
 
 - `M<i>_N<j>_U1_1000000000_<N/R>_NumIterations.dat`:  
-  For each value of *k*, this file reports the average number of iterations until convergence to a *k*-swap optimal solution. Each row contains: *k* and the corresponding average number of iterations.
+  For each value of *k*, this file reports the average number of iterations until convergence to a *k*-swap optimal solution, averaged over all **50 instances**. Each row contains: *k* and the average number of iterations.
 
 - `M<i>_N<j>_U1_1000000000_<N/R>_MS.dat`:  
-  For each value of *k*, this file reports the average relative makespan improvement (in percentage) of the *k*-swap optimal solution compared to the initial makespan. Each row contains: *k* and the average improvement.
+  For each value of *k*, this file reports the average relative makespan improvement (in percentage) of the *k*-swap optimal solution compared to the initial makespan, averaged over all **50 instances**. Each row contains: *k* and the average improvement.
 
 - `M<i>_N<j>_U1_1000000000_k<l>_<N/R>_MSPerIteration.dat`:  
-  For *k = l*, this file reports the average relative makespan improvement (in percentage) at each iteration *t*, compared to the initial makespan. Each row contains: iteration number *t* and the average improvement across all instances.
+  For *k = l*, this file reports the average relative makespan improvement (in percentage) at each iteration *t*, compared to the initial makespan. Each row contains: iteration number *t* and the average improvement, computed across all **50 instances** in the class.
 
 These files enable detailed analysis of performance and convergence across different values of *k* and algorithm variants.
